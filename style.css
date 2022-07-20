@@ -1,0 +1,283 @@
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .header{
+        position: fixed;
+        width: 100%;
+        background: transparent;
+        bottom: 0;
+        top: 0;
+    }
+
+    .container{   
+        width: 990px;
+        margin: auto;
+    }
+
+    
+
+    .logo{
+        float: left;
+        padding-left: 39px;
+        padding-top: 23px;
+    }
+
+
+    .nav{
+        width: 720px;
+        float: left;    
+    }
+
+    .top-nav {
+        margin-top: 22px;
+        margin-right: 10px;
+        float: right;       
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    ul li:first-child{
+        color: coral;
+    }
+
+    li{
+        float: left;
+        padding-left: 38px;
+        display: block;
+    }
+
+    li a{
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+
+    .down-nav{
+        padding-bottom: 25px;
+        margin-top: 25px;
+        display: flex;
+        float: right;   
+    }
+
+    .down-nav a{
+        text-decoration: none;
+        color: rgb(129, 125, 125);
+    }
+
+    .phone{
+        margin-left: 35px;
+    }
+
+    .phone a{
+        letter-spacing: 2px;
+    }
+
+    .email a{
+        letter-spacing: 2px;
+    }
+
+    .slidebar{
+        margin-top: 127px;
+        background-image: url(img/back.webp);
+        width: 100%;
+        height: 760px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        line-height: 2px;
+        
+    }
+
+    .text{
+        width: 940px;
+    }
+
+    .toph1 p{
+        color: white;
+        font-size: 90px;
+        font-weight: -1000;
+    }
+
+    .downh1 p{
+        color: white;
+        font-size: 70px;
+        font-weight: 600;
+    }
+
+    .about1{
+        height: 67px;
+        margin-top: 85px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 0;
+        color: dimgray;
+    }
+
+    .about1 p{
+        display: block;
+        padding: 1px;
+        position: relative;
+    }
+
+    .about1 p::after{
+        display: block;
+        content: "";
+        height: 2px;
+        width: 40px;
+        background-color: dimgray;
+        position: absolute;
+        bottom: -35px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .text22{
+        margin-top: 80px;
+        margin-bottom: 10px;
+        margin-left: 184px;
+        width: 585px;
+        text-align: center;
+    }
+
+    .text221{
+        margin-bottom: 19px;
+    }
+
+    .text221 p{
+        letter-spacing: px;
+        color: rgb(134, 130, 130);
+        font-size: 16px;
+    }
+
+    .text221 p span a{
+        text-decoration: none;
+    }
+
+    .service-container{
+        border: 1px solid black;
+        background-color: rgb(44, 14, 65);
+        width: 1349px;
+        height: 700px;
+    }
+
+
+    .service{
+        text-align: center;
+        margin-top: 98px;
+        margin-bottom: 31px;
+    }
+
+    .service p{
+        position: relative;
+        font-size: 50px;
+        color: white;
+    }
+
+    .service p::after{
+        display: block;
+        content: "";
+        height: 2px;
+        width: 40px;
+        background-color: white;
+        position: absolute;
+        bottom: -35px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .box-container{
+        display: flex;
+        width: 1349px;
+    }
+
+    .auto{
+        display: flex;
+        margin: 50px 54.5px;
+    }
+
+
+    .box-container-1{
+        margin-right: 40px;
+        width: 280px;
+        height: 260px;
+        background: white;
+    }
+
+    .box-text{
+        text-align: center;
+        margin: 0 15px;
+    }
+
+    .box-heading{
+        padding: 31px 0;
+    }
+
+    .box-heading a{
+        font-size: 30px;
+        color: rgb(240, 126, 81);
+        text-decoration: none;
+    }
+
+    .box-container-2{
+        margin-right: 40px;
+        width: 280px;
+        height: 250px;
+        background: white;
+    }
+
+    .bitton{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .btn{
+        background-color: white;
+        padding: 10px 50px;
+    }
+
+    .btn a{
+        color: rgb(240, 126, 81);
+        text-decoration: none;
+    }
+
+    .testimonial{
+        position: relative;
+        margin-top: 90px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .testimonial p{
+        font-size: 50px;
+        color: rgb(44, 14, 65);
+        position: relative;
+    }
+
+    .testimonial p::after{
+        display: block;
+        content: "";
+        height: 2px;
+        width: 40px;
+        background-color: dimgray;
+        position: absolute;
+        bottom: -35px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    
+
+    
+
+   
+
+   
+
+   
